@@ -6,14 +6,23 @@ $lightblue: #10C8CD;
 $pink: #EC1559;
 $yellow: #FAF93C;
 
+/* variables globales */
+$green: #0d924b;
+$lightgreen: #bae8ca;
+$violet: #6F1E9F;
+$white: #fff;
+$black: #000;
+$opacity: 0.76;
+$mainfont: Questrial, Arial;
+
 
 @font-face { 	font-family: "skog"; 	src: url('../font/skog.ttf'); }
 
 body{
-  background-color: $lightblue;
 
   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
   color: $darkblue;
+
 }
 
 h1{
