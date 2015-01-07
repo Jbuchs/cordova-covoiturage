@@ -1,0 +1,59 @@
+{
+  "country": {
+    "name": "Roumanie",
+    "capital": "Bucarest",
+    "currency": "Leu roumain (pluriel : Lei)",
+    "value": "1 RON = 0.26 CHF",
+    "population": "19 779 963",
+    "language": "Roumain"
+  },
+  "firstvisit": {
+    "town": "Bucarest",
+    "tips": "Situé dans le parc Hestrau, ce village reste notre visite préférée à Bucarest notamment pour le gros travail de reconstitution réalisé sur les différentes maisons qui témoignent de l’histoire du pays. Malheureusement, elles ne sont pas toutes ouvertes, mais on peut jeter un coup d’œil à travers les fenêtres pour imaginer la vie d’autrefois. A ne pas rater : la boutique d’artisanat traditionnel où acheter des œufs peints à la main ou des broderies, les souvenirs les plus typiques du pays. Idée pour manger : Le restaurant Hanu’ Berarilor est une bonne alternative pour dîner en amoureux, sachant que la ville ne recèle pas de nombreuses adresses pour se régaler. Ici au moins, on peut goûter la cuisine slovaque sans se ruiner (15€ à deux, vin compris !) comme samale (chou farci) ou encore la polenta. Le cadre est très sympathique, plutôt rustique et pittoresque, de quoi se mettre dans l’ambiance. Comme elles sont rares par chez nous, les églises orthodoxes valent le coup d’être visitées en Roumanie pour admirer les détails précieux sur les statues et icônes de recueillement tout en or. Avec les fumées d’encens et les chants religieux qui enveloppent la petite nef en permanence, le dépaysement est assuré !",
+    "visit": {
+      "first": {
+        "name": "Palais du Parlement",
+        "picture": "img/pictures/bucarest1pict.png",
+        "description": "Le palais du Parlement (en roumain, « Palatul Parlamentului ») situé à Bucarest en Roumanie, abrite la Chambre des députés et le Sénat de Roumanie. Avec sa surface habitable de 350 000 mètres carrés, il est l'un des plus grands bâtiments d'Europe avec le marché aux fleurs d'Aalsmeer (Pays-Bas) et le complexe de bureaux Cœur Défense situé dans le quartier de La Défense (France)1. Enfin, il est le plus grand bâtiment en pierre et le second plus grand bâtiment administratif au monde après le Pentagone. Le palais a une surface au sol de 45 000 m2 et 350 000 m2 habitables. Il mesure 270 sur 240 mètres, pour une hauteur de 86 mètres. Il contient 1 100 pièces réparties sur 12 étages4. Quatre niveaux supplémentaires en sous-sol sont actuellement accessibles et utilisés et quatre autres encore plus ou moins achevés.",
+        "location": "img/maps/bucarest1.png"
+      },
+      "second": {
+        "name": "Les Parcs",
+        "picture": "img/pictures/bucarest2pict.png",
+        "description": "Sans doute, le Parc Cismigiu est un des objectifs touristiques principaux de Bucarest. Le parc occupe 17 hectares, et, à part d’être considéré le jardin le plus beau de Bucarest, il a aussi une position centrale dans la ville. La partie de sud est bordée par le Boulevard Regina Elisabeta, tandis que la partie de nord est délimitée par la Rue Știrbei Vodă. La rue Schitu Măgureanu occupe la partie d’ouest, tandis que la Rue Brezoianu marque la partie d’est du Parc Cismigiu. Le parc est accessible par quelques entrées distribuées sur chacune des rues qui l’entourent, moins sur la Rue Brezoianu. Le Parc Carol I, ou le Parc Carol ou encore le Parc de la Liberté, est un des parcs les plus anciens de Bucarest. Grâce à son âge et au patrimoine d’attractions y situées, le parc a été déclaré monument historique en 2004. Le nom du parc est donné par le fait qu’il a été inauguré lors de la célébration de 40 années de règne du Roi Carol I. Grâce à l’ampleur et à l’importance de l’événement, le parc a été aménagé avec beaucoup d’œuvres sculpturales et décoratives.",
+        "location": "img/maps/bucarest2.png"
+      },
+      "third": {
+        "name": "Le Quartier du Lipscani",
+        "picture": "img/pictures/bucarest3pict.png",
+        "description": "La rue Lipscani (en roumain : Strada Lipscani) est le nom d'une artère historique du vieux Bucarest. Elle doit son nom au quartier qui l'entoure et qui était que le cœur économique de la vieille cité médiévale.",
+        "location": "img/maps/bucarest3.png"
+      }
+    }
+  },
+  "secondvisit": {
+    "town": "Constanta",
+    "tips": " Astuces : Les transports publics à Constanta comprennent des autobus, trolleybus, tramways et des mini-fourgonnettes appelé maxi-taxis qui peuvent prendre de 8-10 clients. Il y a aussi des taxis jaunes disponibles et Il en est de même pour la location de voitures à Constanta qui est également possible. Services et sécurité. Parmi les hôtels à Constanta on trouve un grand nombre de grands hôtels de plage situés en particulier dans le district de Mamaia, ainsi que les petites options de logement. Il y a une bonne gamme de restaurants à Constanta, qui servent une variété de cuisines. La vie nocturne à Constanta est animée pendant les mois d'été, car il y a beaucoup de cafés en plein air et des bars autour de la ville. L'anglais est parlé à Constanta dans les principales zones touristiques. La ville est assez une destination sûre, mais malheureusement, certains crimes comme les vols se produisent, il est donc sage de laisser vos objets de valeur à l'hôtel en sûreté et d'éviter les endroits déserts la nuit.",
+    "visit": {
+      "first": {
+        "name": "Playa :)",
+        "picture": "img/pictures/constanta1pict.png",
+        "description": "Située sur la côte sud-est de la Roumanie, au bord de la mer Noire, Constanta est la deuxième plus grande ville du pays après la capitale, Bucarest. Ancienne cité antique (le poète latin Ovide y finira ses jours), la ville est pendant tout le Moyen Âge la cible d’invasions turques, bulgares ou russes. Elle redevient prospère à la fin du XIXe siècle, grâce à sa position géographique idéale pour les échanges maritimes. C’est aujourd’hui une ville animée et touristique, qui attire les passionnés de culture : on y trouve des vestiges antiques et des exemples d’architecture byzantine, islamique et orthodoxe. C’est aussi la destination idéale des amateurs de farniente, la ville étant célèbre pour ses plages de sable fin.",
+        "location": "img/maps/constanta1.png"
+      },
+      "second": {
+        "name": "Le casino",
+        "picture": "img/pictures/constanta2pict.png",
+        "description": "Le casino, érigé entre 1907 et 1909 selon la conception de l'architecte français Daniel Renard, fut inauguré au mois d'août 1910. Auparavant, il y avait déjà un bâtiment en bois au même endroit. En 1905, l'architecte roumain Petre Antonescu avait présenté un propre plan d'abord prévu à la réalisation, mais qui fut rejeté plus tard en faveur du projet de Renard. Pendant de longues décades, le casino figurait comme symbole de Constanta d'autant plus qu'il n'y avait d'autre bâtiment représentatif du style Art nouveau en Roumanie. De 1985 à 1987, le casino fut entièrement remis en état.",
+        "location": "img/maps/constanta2.png"
+      },
+      "third": {
+        "name": "La place Ovidiu",
+        "picture": "img/pictures/constanta3pict.png",
+        "description": "Par exemple : la Grande Mosquée, strada Arhiepiscopiei, 5, près de la Place Ovidiu, premier bâtiment civil en béton armé réalise en Roumanie, un don du Roi Carol Ier fait en 1910 à la petite communauté musulmane de Dobrogea qui y a installé son siège. Montez les 140 marches  du minaret et vous aurez une belle vue sur l'ancienne partie de la ville. Autre possibilité : La remarquable mosaïque romaine.",
+        "location": "img/maps/constanta3.png"
+      }
+    }
+  }
+}
+

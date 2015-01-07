@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "skog";
+  src: url("../font/skog.ttf");
+}
+/* line 12, ../scss/base.scss */
+body {
+  background-color: #10C8CD;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #213240;
+}
+
+/* line 19, ../scss/base.scss */
+h1 {
+  font-family: skog, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/* line 29, ../scss/base.scss */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  line-height: 5px;
+  background-color: #213240;
+}
+/* line 39, ../scss/base.scss */
+header h1 {
+  text-align: center;
+  color: #FFF;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* line 47, ../scss/base.scss */
+.subhead {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  height: 30px;
+  line-height: 30px;
+  background-color: #90AEC6;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+/* line 62, ../scss/base.scss */
+.view {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #90AEC6;
+}
+
+/* line 72, ../scss/base.scss */
+.panel {
+  background-color: #10C8CD;
+}
+/* line 76, ../scss/base.scss */
+.panel .countrylist {
+  margin: 0;
+  padding: 0;
+  background-color: #EC1559;
+}
+/* line 82, ../scss/base.scss */
+.panel .countrylist .country {
+  list-style: none;
+  line-height: 20px;
+  vertical-align: middle;
+  padding: 6px;
+  margin-left: 0;
+  background-color: #10C8CD;
+  border: 2px solid #90AEC6;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+/* line 97, ../scss/base.scss */
+.panel .countrylist .country a {
+  text-decoration: none;
+  color: #213240;
+}
+
+/*page du pays*/
+/* line 107, ../scss/base.scss */
+.country h2 {
+  width: 100%;
+  padding-left: 5px;
+  background-color: #EC1559;
+  font-size: 1.4rem;
+  color: #FFF;
+}
+/* line 118, ../scss/base.scss */
+.country h3 {
+  padding-left: 5px;
+  background-color: #EC1559;
+  font-size: 1.2rem;
+  color: #FFF;
+}
+/* line 127, ../scss/base.scss */
+.country h4 {
+  padding-left: 5px;
+  font-size: 1rem;
+  color: #213240;
+}
+/* line 136, ../scss/base.scss */
+.country .info img {
+  width: 100%;
+}
+/* line 141, ../scss/base.scss */
+.country .generals {
+  font-size: 1.0rem;
+}
+/* line 146, ../scss/base.scss */
+.country .back {
+  background-color: #EC1559;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 10px;
+  -webkit-border-bottom-right-radius: 20px;
+  -moz-border-radius-bottomright: 20px;
+  border-bottom-right-radius: 20px;
+  font-size: 1.4rem;
+  color: #FAF93C;
+  text-decoration: none;
+  font-weight: bold;
+}
