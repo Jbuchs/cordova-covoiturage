@@ -4,12 +4,12 @@ document.addEventListener('deviceready', function(){
 
 var app = angular.module("app", [
     'ngRoute',
-    'countryControllers'
+    'dataControllers'
 ]);
 
 app.config(function($routeProvider){
    $routeProvider
        .when('/home', {templateUrl: 'pages/home.html'})
-       .when('/country/:countryId', {templateUrl: 'pages/country.html', controller: 'CountryDetailCtrl'})
+       .when('/tes-trajets', {templateUrl: 'pages/tes-trajets.html'})
        .otherwise({redirectTo: '/home'});
 });

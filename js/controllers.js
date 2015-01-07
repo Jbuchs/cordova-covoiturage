@@ -1,4 +1,4 @@
-var countryControllers = angular.module('countryControllers',[]);
+var countryControllers = angular.module('dataControllers',[]);
 
 countryControllers.controller('CountryDetailCtrl', ['$scope', '$routeParams', '$http',
     function($scope, $routeParams, $http) {

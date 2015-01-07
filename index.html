@@ -8,16 +8,9 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1" />
         <link rel="stylesheet" type="text/css" href="css/base.css" />
-        <link rel="stylesheet" type="text/css" href="css/menu.css" />
         <title>interRail</title>
     </head>
     <body>
-        <header>
-            <h1>interRail</h1>
-        </header>
-        <section class="subhead">
-        </section>
-
         <section class="view" ng-view>
         </section>
 
@@ -26,19 +19,6 @@
         <script src="js/angular-route.js"></script>
         <script src="js/app.js"></script>
         <script src="js/controllers.js"></script>
-        <script>
-            //calcul du temps restant pour le trip en jours
-            var endTrip = "July, 31, 2015";
 
-            //alert(totalInDays);
-            var currentDate = new Date();
-            var endDate = new Date(endTrip);
-
-            var diff = endDate.getTime() - currentDate.getTime();
-            var diffInDays = diff / (24 * 3600 * 1000);
-
-            //affichage du nombre de jours restant
-            $( ".subhead" ).text( (Math.round(diffInDays * 10))/10 + " jours restant(s)");
-        </script>
     </body>
 </html>
