@@ -1,0 +1,59 @@
+/* variables globales */
+@font-face {
+  font-family: "skog";
+  src: url("../font/skog.ttf");
+}
+/* line 16, ../scss/base.scss */
+body {
+  background-color: black;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+/* line 3, ../scss/tes_trajets.scss */
+body {
+  background-color: white;
+}
+
+/* line 7, ../scss/tes_trajets.scss */
+.backup {
+  text-align: center;
+}
+
+/* line 13, ../scss/tes_trajets.scss */
+.rides .ride {
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 0.8rem;
+}
+/* line 19, ../scss/tes_trajets.scss */
+.rides .ride ul {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  list-style-type: none;
+}
+/* line 25, ../scss/tes_trajets.scss */
+.rides .ride ul li {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+/* line 31, ../scss/tes_trajets.scss */
+.rides .ride ul li:nth-child(1) {
+  font-weight: bold;
+}
+/* line 35, ../scss/tes_trajets.scss */
+.rides .ride .white {
+  background-color: #fff;
+  opacity: 0.76;
+}
+/* line 40, ../scss/tes_trajets.scss */
+.rides .ride .green {
+  background-color: #0d924b;
+  opacity: 0.76;
+  color: #fff;
+}
+/* line 47, ../scss/tes_trajets.scss */
+.rides .ride .driver {
+  background-image: url("../img/driver.png");
+  background-repeat: no-repeat;
+  background-position: 3px 3px;
+}
