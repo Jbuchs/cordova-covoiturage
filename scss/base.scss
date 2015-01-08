@@ -1,6 +1,5 @@
 @import "compass";
 
-
 /* variables globales */
 $green: #0d924b;
 $lightgreen: #bae8ca;
@@ -10,18 +9,46 @@ $black: #000;
 $opacity: 0.76;
 $mainfont: Questrial, Arial;
 
+/* Police */
+@font-face {
+  font-family: 'Questrial';
+  src: url('../font/Questrial/Questrial-Regular.ttf');
+}
 
-@font-face { 	font-family: "skog"; 	src: url('../font/skog.ttf'); }
+//@font-face { 	font-family: "skog"; 	src: url('../font/skog.ttf'); }
 
 body{
 
-
-
-
-  background-color: black;
-
   font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  background-image:url("../img/photoFond.jpg");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: center;
 
+  color:$white;
+  font-family: $mainfont;
+
+  overflow:hidden;
 }
+
+.panel{
+  margin: 0em;
+}
+
+a{
+  text-decoration: none;
+  color:$white;
+}
+
+h1{
+  position: absolute;
+  top:0.0em;
+  width:100%;
+  height:85px;
+  font-size:190%;
+
+  text-align: center;
+}
+
 
 
