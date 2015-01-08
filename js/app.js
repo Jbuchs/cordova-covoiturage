@@ -10,6 +10,6 @@ var app = angular.module("app", [
 app.config(function($routeProvider){
    $routeProvider
        .when('/home', {templateUrl: 'pages/home.html'})
-       .when('/tes-trajets', {templateUrl: 'pages/tes-trajets.html'})
+       .when('/tes_trajets', {templateUrl: 'pages/tes_trajets.html'})
        .otherwise({redirectTo: '/home'});
 });
