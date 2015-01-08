@@ -31,6 +31,20 @@ body{
 
 .panel{
   margin: 0em;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  overflow-x:hidden;
+  overflow-y:scroll;
+  -webkit-overflow-scrolling:touch;
+  @include transition-duration(.5);
+}
+
+.left{@include transform(translate3D(-50%,0,0));}
+
+.right{@include transform(translate3D(50%,0,0));}
+
 }
 
 a{
