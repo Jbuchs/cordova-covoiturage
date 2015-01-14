@@ -3,7 +3,7 @@
     <div class="menu-principal"></div>
     <div class="logo-principal"></div>
     <div class="btn-vertical-left">
-            <a href="#"><img class="triangleHaut" src="img/rightTriangle.png"/></a>
+            <img class="triangleHaut" src="img/rightTriangle.png"/>
             <div class="vertical-milieu">
                 <div class="text-vertical-left"><a class="lien" href="#conducteur">conducteur</a></div>
             </div>
@@ -29,5 +29,15 @@
             </div>
         </div>
     </div>
-
+    <script>
+        //menu loading
+        $(document).ready(function(){
+            var options ={
+                element1: "Données personnelles",
+                element2: "Blog",
+                element3: "About"
+            };
+            $("menu-principal").menu(options);
+        });
+    </script>
 </section>
