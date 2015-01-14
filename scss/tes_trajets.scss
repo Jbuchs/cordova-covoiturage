@@ -10,13 +10,19 @@ body{
   top: 0;
   left: 50%;
   margin-left: -88px;
+
+  z-index: 10;
 }
 
 .main-rides{
   position: absolute;
   top: 10px;
   left: 8px;
-  right: 8px;
+  right: 0;
+  bottom: 0;
+
+  overflow-y: scroll;
+  z-index: 1px;
 
   text-align: center;
 
