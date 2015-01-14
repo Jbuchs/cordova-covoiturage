@@ -2,33 +2,41 @@
 <section class="panel">
     <div class="menu-principal"></div>
     <div class="logo-principal"></div>
-    <div class="btn-vertical-left">
-            <img class="triangleHaut" src="img/rightTriangle.png"/>
-            <div class="vertical-milieu">
-                <div class="text-vertical-left"><a class="lien" href="#conducteur">conducteur</a></div>
-            </div>
-            <img class="triangleBas" src="img/bottomLeftTriangle.png"/>
-    </div>
 
-    <div class="btn-vertical-right">
-        <img class="triangleHaut" src="img/leftTriangle.png"/>
-        <div class="vertical-milieu">
-            <div class="text-vertical-right"><a class="lien" href="#passager">passager</a></div>
-        </div>
-        <img class="triangleBas" src="img/bottomRightTriangle.png"/>
-    </div>
-
-    <div class="btn-centre-bas">
-        <div class="btn-horizontal-bas">
-            <div class="right">
-                <img class="triangleGauche" src="img/leftTriangle.png"/>
-                <div class="horizontal-milieu">
-                    <p><a class="lien" href="#tes_trajets">tes trajets</a></p>
+    <a class="lien" href="#conducteur">
+        <div class="btn-vertical-left">
+                <img class="triangleHaut" src="img/rightTriangle.png"/>
+                <div class="vertical-milieu">
+                    <div class="text-vertical-left">conducteur</div>
                 </div>
-                <img class="triangleDroit" src="img/rightTriangle.png"/>
-            </div>
+                <img class="triangleBas" src="img/bottomLeftTriangle.png"/>
         </div>
-    </div>
+    </a>
+
+    <a class="lien" href="#passager">
+        <div class="btn-vertical-right">
+            <img class="triangleHaut" src="img/leftTriangle.png"/>
+            <div class="vertical-milieu">
+                <div class="text-vertical-right">passager</div>
+            </div>
+            <img class="triangleBas" src="img/bottomRightTriangle.png"/>
+        </div>
+    </a>
+
+        <div class="btn-centre-bas">
+            <a class="lien" href="#tes_trajets">
+                <div class="btn-horizontal-bas">
+                    <div class="right">
+                        <img class="triangleGauche" src="img/leftTriangle.png"/>
+                        <div class="horizontal-milieu">
+                            <p>tes trajets</p>
+                        </div>
+                        <img class="triangleDroit" src="img/rightTriangle.png"/>
+                    </div>
+                </div>
+            </a>
+        </div>
+
     <script>
         //menu loading
         $(document).ready(function(){
@@ -40,4 +48,5 @@
             $("menu-principal").menu(options);
         });
     </script>
+
 </section>

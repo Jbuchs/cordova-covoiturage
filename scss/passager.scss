@@ -1,15 +1,11 @@
 @import 'base';
 
-body{
-  background-color: white;
-}
-
-.backup{
-  position: absolute;
+.backup-triangle{
+  position:absolute;
   height: 32px;
-  top: 0;
-  left: 50%;
-  margin-left: -88px;
+  top: 0px;
+  left:0px;
+  z-index:2;
 }
 
 .main-rides{
@@ -17,6 +13,9 @@ body{
   top: 10px;
   left: 8px;
   right: 8px;
+
+  overflow-y: scroll;
+  z-index: 1;
 
   text-align: center;
 
@@ -28,47 +27,154 @@ body{
 
     .ride {
 
-      margin-bottom: -8px;
+      margin-bottom: 4px;
 
       font-size: 0.8rem;
       text-align: left;
-
-      ul {
-        padding-top: 3px;
-        padding-bottom: 3px;
-
-        list-style-type: none;
-
-        li {
-          padding-top: 2px;
-          padding-bottom: 2px;
-        }
-      }
-
-      ul li:nth-child(1) {
-        font-weight: bold;
-      }
-
-      .white {
-        background-color: $white;
-        opacity: $opacity;
-
-        color: $black;
-      }
-
-      .green {
-        background-color: $green;
-        opacity: $opacity;
-
-        color: $white;
-      }
-      /* ajoute un petit volan devant le trajet */
-      .driver {
-        background-image: url("../img/driver.png");
-        background-repeat: no-repeat;
-        background-position: 3px 3px;
-      }
     }
   }
 }
+
+.trajet-blanc {
+  width: 100%;
+  border: solid black 0px;
+  margin: 0px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+
+  background-color: rgba(255,255,255,0.76);
+
+  color: $black;
+
+  tr {
+    height: 15px;
+  }
+
+  .villes {
+    width: 85%;
+  }
+
+  .dates {
+    width: 85%;
+    font-weight: bold;
+  }
+
+  .heure {
+    width: 15%;
+    text-align: center;
+  }
+  .carre-blanc {
+    margin-left: 1.5%;
+    float: left;
+    width: 11%;
+    height: 26px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    border: 2px solid $green;
+    background-color: $white;
+    opacity: 1.5;
+    overflow: hidden;
+
+    p {
+      margin: 0px;
+      padding-top: 6px;
+    }
+  }
+
+  .carre-vert {
+    margin-left: 1.5%;
+    float: left;
+    width: 11%;
+    height: 26px;
+
+    text-align: center;
+
+    border: 2px solid $green;
+    background-color: $green;
+    opacity: 1.5;
+
+    color: $white;
+    p {
+      margin: 0px;
+      padding-top: 6px;
+    }
+  }
+}
+
+.trajet-vert {
+  width: 100%;
+  border: solid black 0px;
+  margin: 0px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+
+  background-color: rgba(13,146,75,0.76);
+
+  color: $white;
+
+  tr {
+    height: 15px;
+  }
+
+  .villes {
+    width: 85%;
+  }
+
+  .dates {
+    width: 85%;
+    font-weight: bold;
+  }
+
+  .heure {
+    width: 15%;
+    text-align: center;
+  }
+  .carre-blanc {
+    margin-left: 1.5%;
+    float: left;
+    width: 11%;
+    height: 26px;
+
+    text-align: center;
+    vertical-align: middle;
+
+    border: 2px solid $green;
+    background-color: $white;
+    opacity: 1.5;
+    overflow: hidden;
+
+    color:$black;
+
+    p {
+      margin: 0px;
+      padding-top: 6px;
+    }
+  }
+
+  .carre-vert {
+    margin-left: 1.5%;
+    float: left;
+    width: 11%;
+    height: 26px;
+
+    text-align: center;
+
+    border: 2px solid $white;
+    background-color: $green;
+    opacity: 1.5;
+
+    color: $white;
+    p {
+      margin: 0px;
+      padding-top: 6px;
+    }
+  }
+}
+
 
