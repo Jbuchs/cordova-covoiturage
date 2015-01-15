@@ -16,7 +16,7 @@
 
 .menu-principal{
   position: absolute;
-  width:100%;
+  width:59px;
   height:58px;
   top:0em;
   right:0em;
@@ -143,12 +143,14 @@
 
   background-color: $white;
 
-  ul{
+  border-bottom: 2px solid $lightgreen;
 
+  ul{
+      margin-top: 1px;
     li{
       z-index: 30;
-      padding-top: 4px;
-      padding-bottom: 4px;
+      padding-top: 9px;
+      padding-bottom: 9px;
       list-style-type: none;
 
       a{
