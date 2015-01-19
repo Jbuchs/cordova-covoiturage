@@ -17,16 +17,17 @@ $mainfont: Questrial, Arial;
 
 //@font-face { 	font-family: "skog"; 	src: url('../font/skog.ttf'); }
 
-.body{
-  //background-image:url("../img/photoFond.jpg");
- // background-repeat: repeat-x;
-  //background-attachment: fixed;
-  //background-position: top;
+body{
+  /*background-image:url("../img/photoFond.jpg");
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: top;
   background: url("../img/photoFond.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover; /* pour Chrome et Safari */
-  -moz-background-size: cover; /* pour Firefox */
-  -o-background-size: cover; /* pour Opera */
-  background-size: cover; /* version standardisée */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  */
 
   color:$white;
   font-family: $mainfont;
