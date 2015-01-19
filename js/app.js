@@ -16,5 +16,6 @@ app.config(function($routeProvider){
        .when('/menu', {templateUrl: 'pages/menu.html'})
        .when('/donnees_personnelles', {templateUrl: 'pages/donnees_personnelles.html'})
        .when('/about', {templateUrl: 'pages/about.html'})
+       .when('/blog', {templateUrl: 'pages/blog.html'})
        .otherwise({redirectTo: '/home'});
 });
