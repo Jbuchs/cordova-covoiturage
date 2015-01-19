@@ -32,6 +32,42 @@
   text-align: center;
 }
 
+
+.btn-vertical-left {
+  position:absolute;
+  top:300px;
+  left:0px;
+  width:45px;
+  height:193px;
+
+  background: url("../img/btn-conducteur.png") no-repeat;
+  opacity: $opacity;
+}
+
+.btn-vertical-right {
+  position:absolute;
+  top:300px;
+  right:0px;
+  width:45px;
+  height:193px;
+
+  background: url("../img/btn-passager.png") no-repeat;
+  opacity: $opacity;
+}
+
+.btn-horizontal-bas{
+  position:absolute;
+  bottom:0px;
+  right:0px;
+  left:0px;
+  width:193px;
+  height:45px;
+  margin:auto;
+
+  background: url("../img/btn-tes-trajets.png") no-repeat;
+  opacity: $opacity;
+}
+/*
 .btn-vertical-left{
   position:absolute;
   height:12em;
@@ -62,7 +98,7 @@
       }
     }
   }
-
+*/
 .btn-vertical-right{
   position:absolute;
   height:12em;
@@ -92,7 +128,8 @@
 }
 .btn-centre-bas{
   position:absolute;
-  width:100%;
+  right:0;
+  left:0;
   height:45px;
   bottom:0em;
 
