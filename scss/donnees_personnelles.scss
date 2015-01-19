@@ -9,6 +9,7 @@
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
+  overflow-y: scroll;
 
   background-color: $white;
   opacity: $opacity;
@@ -49,10 +50,38 @@
 }
 
 .confidentiality{
+  display: none;
   padding-bottom: 10px;
 
   text-align: left;
   color: $black;
+
+}
+
+.notifications{
+  display: none;
+  padding-bottom: 10px;
+
+  text-align: left;
+  color: $black;
+
+  p{
+    color: $black;
+  }
+}
+
+#save{
+  height: 30px;
+  width: 100%;
+
+  background-color: $green;
+
+  border: none;
+
+  text-align: center;
+  color: $white;
+  font-family: $mainfont;
+  font-size: 1rem;
 
 }
 
