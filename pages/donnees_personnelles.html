@@ -1,7 +1,7 @@
 <section class="panel">
     <!--<section class="rides" ng-controller="CountryDetailCtrl">-->
     <div class="backup-triangle"><a href="#home"><img src="img/backLeft.png" alt="retour à l'accueil"/></a></div>
-    <section class="main-rides">
+    <!--<section class="main-rides">-->
         <h1>Axel</h1>
         <form method="post">
             <section class="main-layout">
@@ -44,12 +44,13 @@
                 <input type="submit" value="enregistrer" id="save"/>
             </section>
         </form>
-    </section>
+    <!--</section>-->
     <script>
-        // hide-show the areas
+        //hide-show the areas
         $(document).ready(function(){
             //personal data
-            $('.onOff-pdata').click(function(){
+            $('.pdata').click(function(){
+
                 if($(".personal-data").is(":hidden")) {
                     //change the arrow's picture
                     $('.onOff-pdata').attr('src','img/arrowDown.png');
@@ -61,10 +62,11 @@
                     //hide the div
                     $(".personal-data").slideUp();
                 }
+                return false;
             })
 
             //confidentiality
-            $('.onOff-conf').click(function(){
+            $('.conf').click(function(){
                 if($(".confidentiality").is(":hidden")) {
                     //change the arrow's picture
                     $('.onOff-conf').attr('src','img/arrowDown.png');
@@ -79,7 +81,7 @@
             })
 
             //notifications
-            $('.onOff-notif').click(function(){
+            $('.notif').click(function(){
                 if($(".notifications").is(":hidden")) {
                     //change the arrow's picture
                     $('.onOff-notif').attr('src','img/arrowDown.png');
@@ -92,6 +94,6 @@
                     $(".notifications").slideUp();
                 }
             })
-        })
+        });
     </script>
 </section>
