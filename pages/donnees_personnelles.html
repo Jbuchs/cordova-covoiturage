@@ -1,50 +1,50 @@
 <section class="panel">
     <!--<section class="rides" ng-controller="CountryDetailCtrl">-->
     <div class="backup-triangle"><a href="#home"><img src="img/backLeft.png" alt="retour à l'accueil"/></a></div>
-    <!--<section class="main-rides">-->
+    <section class="main-rides">
         <h1>Axel</h1>
         <form method="post">
             <section class="main-layout">
-                <div class="title-form pdata"><img src="img/arrowDown.png" alt="ouvrir / cacher" class="onOff-pdata"/> données personnelles</div>
-                <article class="personal-data">
-                    <label for="email">email personnel</label><br>
-                    <input type="email" id="email" name="email" /><br>
+                    <div class="title-form pdata"><img src="img/arrowDown.png" alt="ouvrir / cacher" class="onOff-pdata"/> données personnelles</div>
+                    <article class="personal-data">
+                        <label for="email">email personnel</label><br>
+                        <input type="email" id="email" name="email" /><br>
 
-                    <label for="phone">téléphone</label><br>
-                    <input type="tel" id="phone" name="phone" /><br>
-                </article>
+                        <label for="phone">téléphone</label><br>
+                        <input type="tel" id="phone" name="phone" /><br>
+                    </article>
 
-                <div class="title-form conf"><img src="img/arrowRight.png" alt="ouvrir / cacher" class="onOff-conf"/> confidentialité</div>
-                <article class="confidentiality">
-                    <input type="checkbox" id="hideEmail" name="hideEmail" />
-                    <label for="hideEmail"><span></span> masquer mon email</label>
-                    <br><br>
-                    <input type="checkbox" id="hideTel" name="hideTel" />
-                    <label for="hideTel"><span></span> masquer mon numéro de téléphone</label>
-                </article>
+                    <div class="title-form conf"><img src="img/arrowRight.png" alt="ouvrir / cacher" class="onOff-conf"/> confidentialité</div>
+                    <article class="confidentiality">
+                        <input type="checkbox" id="hideEmail" name="hideEmail" />
+                        <label for="hideEmail"><span></span> masquer mon email</label>
+                        <br><br>
+                        <input type="checkbox" id="hideTel" name="hideTel" />
+                        <label for="hideTel"><span></span> masquer mon numéro de téléphone</label>
+                    </article>
 
-                <div class="title-form notif"><img src="img/arrowRight.png" alt="ouvrir / cacher" class="onOff-notif"/> notifications</div>
-                <article class="notifications">
-                    <p>je suis averti par email lorsque quelqu'un ...</p>
-                    <input type="checkbox" id="subscribing" name="subscribing" />
-                    <label for="subscribing"><span></span> s'inscrit à l'un de mes trajets</label>
-                    <br><br>
-                    <input type="checkbox" id="unsubscribing" name="unsubscribing" />
-                    <label for="unsubscribing"><span></span> se désinscrit de l'un de mes trajets</label>
-                    <br><br>
-                    <input type="checkbox" id="checking" name="checking" />
-                    <label for="checking"><span></span> valide mon inscription</label>
-                    <br><br>
-                    <input type="checkbox" id="removing" name="removing" />
-                    <label for="removing"><span></span> supprime un des trajets auquel je suis inscrit</label>
-                    <br><br>
-                    <input type="checkbox" id="updating" name="updating" />
-                    <label for="updating"><span></span> modifie un des trajets auquel je suis inscrit</label>
-                </article>
-                <input type="submit" value="enregistrer" id="save"/>
+                    <div class="title-form notif"><img src="img/arrowRight.png" alt="ouvrir / cacher" class="onOff-notif"/> notifications</div>
+                    <article class="notifications">
+                        <p>je suis averti par email lorsque quelqu'un ...</p>
+                        <input type="checkbox" id="subscribing" name="subscribing" />
+                        <label for="subscribing"><span></span> s'inscrit à l'un de mes trajets</label>
+                        <br><br>
+                        <input type="checkbox" id="unsubscribing" name="unsubscribing" />
+                        <label for="unsubscribing"><span></span> se désinscrit de l'un de mes trajets</label>
+                        <br><br>
+                        <input type="checkbox" id="checking" name="checking" />
+                        <label for="checking"><span></span> valide mon inscription</label>
+                        <br><br>
+                        <input type="checkbox" id="removing" name="removing" />
+                        <label for="removing"><span></span> supprime un des trajets auquel je suis inscrit</label>
+                        <br><br>
+                        <input type="checkbox" id="updating" name="updating" />
+                        <label for="updating"><span></span> modifie un des trajets auquel je suis inscrit</label>
+                    </article>
+                    <input type="submit" value="enregistrer" id="save"/>
             </section>
         </form>
-    <!--</section>-->
+    </section>
     <script>
         //hide-show the areas
         $(document).ready(function(){

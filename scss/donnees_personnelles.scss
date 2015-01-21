@@ -1,18 +1,18 @@
 @import 'base';
 
 .main-layout{
-  position: absolute;
-  top: 100px;
-  left: 8px;
-  right: 8px;
-  bottom: 8px;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  overflow-y: scroll;
+  position: relative;
+  padding-top: 8px;
+  padding-right: 8px;
+  padding-left: 8px;
 
   background-color: $white;
   opacity: $opacity;
+
+  article{
+    padding-left: 8px;
+    padding-right: 8px;
+  }
 
 
   .personal-data{
@@ -49,6 +49,12 @@
 
 }
 
+.main-rides{
+  overflow-y: scroll;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
 .confidentiality{
   display: none;
   padding-bottom: 10px;
@@ -73,6 +79,7 @@
 #save{
   height: 30px;
   width: 100%;
+  margin-right: 8px;
 
   background-color: $green;
 
