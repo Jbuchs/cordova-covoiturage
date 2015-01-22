@@ -59,15 +59,18 @@
                         <div class="carre-vert"><p>mois</p></div>
                     </div>
 
+                    <label for="startDate">du</label>
+                    <input type="date" id="startDate" name="startDate" />
+
+                    <label for="endDate">au</label>
+                    <input type="date" id="endDate" name="endDate" /><br>
+
                 </article>
 
                 <div class="title-form det"><img src="img/arrowRight.png" alt="ouvrir / cacher" class="onOff-details"/>détails</div>
                 <article class="details">
-                    <label for="departure">départ</label><br>
-                    <input type="text" id="departure" name="departure" /><br>
-
-                    <label for="arrival">destination</label><br>
-                    <input type="text" id="arrival" name="arrival" /><br>
+                    <label for="rideDescription">description</label>
+                    <textarea name="rideDescription" rows="6" cols="30" id="rideDescription"></textarea>
                 </article>
 
                 <input type="submit" value="enregistrer" id="save"/>
