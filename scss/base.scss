@@ -69,6 +69,37 @@ body{
   color:$white;
 }
 
+a:active{
+  text-decoration: none;
+  color:$white;
+  background-color:transparent;
+  border:0;
+}
+
+a:focus{
+  text-decoration: none;
+  color:$white;
+  background-color:transparent;
+  border:0;
+}
+
+a:link{
+  text-decoration: none;
+  color:$white;
+  background-color:transparent;
+  border:0;
+}
+a:hover{
+  text-decoration: none;
+  color:$white;
+  background-color:transparent;
+  border:0;
+}
+a:focus{
+  text-decoration: none;
+  background-color:transparent;
+  border:0;
+}
 h1{
   font-size:190%;
   text-align: center;
