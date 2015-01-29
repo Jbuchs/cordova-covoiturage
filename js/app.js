@@ -9,8 +9,8 @@ var app = angular.module("app", [
 
 app.config(function($routeProvider){
    $routeProvider
-       .when('/home', {templateUrl: 'pages/home.html'})
-       .when('/tes_trajets', {templateUrl: 'pages/tes_trajets.html'})
+       .when('/home', {templateUrl: 'pages/home.html', controller: 'homeCtrl'})
+       .when('/tes_trajets', {templateUrl: 'pages/tes_trajets.html', controller: 'tesTrajetsCtrl'})
        .when('/conducteur', {templateUrl: 'pages/creation_trajet.html'})
        .when('/passager', {templateUrl: 'pages/passager.html'})
        .when('/menu', {templateUrl: 'pages/menu.html'})
@@ -20,3 +20,4 @@ app.config(function($routeProvider){
        .when('/details', {templateUrl: 'pages/details_trajet.html'})
        .otherwise({redirectTo: '/home'});
 });
+countryControllers = angular.module('dataControllers',[]);
