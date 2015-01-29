@@ -19,7 +19,6 @@
         $(".list-menu").append(element3Menu);
 
 
-
         //display or hide menu on click
         $( ".menu-principal" ).click(function(){
             if($(".top-menu").is(":hidden")) {
